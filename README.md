@@ -1,0 +1,1 @@
+BotNet is a distributed event system built with Node.js. It's designed to simplify the creation of distributed software. It uses TLS, EventEmitter2 and MsgPack.  

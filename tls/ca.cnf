@@ -1,0 +1,20 @@
+[ req ]
+default_bits           = 1024
+days                   = 999
+distinguished_name     = req_distinguished_name
+attributes             = req_attributes
+prompt                 = no
+output_password        = password
+
+[ req_distinguished_name ]
+C                      = CA
+ST                     = ON
+L                      = Toronto
+O                      = My Company
+OU                     = My Unit
+CN                     = Me Inc
+emailAddress           = me@home.com
+
+[ req_attributes ]
+challengePassword              = A challenge password
+
